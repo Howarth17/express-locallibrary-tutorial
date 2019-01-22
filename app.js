@@ -11,7 +11,7 @@ var app = express();
 
 //Set up mongoose connection
 var mongoose = require('mongoose');
-var mongoDB = 'mongodb://<howarth17>:<jth824832>@ds159574.mlab.com:59574/local_library';
+var mongoDB = 'mongodb://***:***@ds159574.mlab.com:59574/local_library';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
